@@ -37,6 +37,6 @@ tsc --version
 
 ## Nodemon installation  
 ```bash
-npm i -g install
+npm i -g nodemon 
 npm install -g ts-node
 ``` 
