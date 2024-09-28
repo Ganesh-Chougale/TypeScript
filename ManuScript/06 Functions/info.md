@@ -47,9 +47,8 @@ again the issue is any we can pass any arbitrary value as arguments.
 function signUp(name: string, email: string, isPaid: boolean){}
 signUp("Ganesh", "G@gmail.com", false);
 ```  
-we can pass default paramter as well
+we can pass default parameter as well
 ```typescript
 function signUp(name: string, email: string, isPaid: boolean = false){}
 signUp("Ganesh", "G@gmail.com");
 ```  
-

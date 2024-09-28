@@ -9,7 +9,7 @@ similarly when we do other datatypes it shows us only supported methods & operat
 writting typescript with full annotation is not always recomended also
 like this   
 ```typescript
-let userID: numer = 456;
+let userID: number = 456;
 ```
 OR
 ```typescript
