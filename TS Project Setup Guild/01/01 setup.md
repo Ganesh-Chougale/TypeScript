@@ -28,9 +28,9 @@ dist: Common directory for final production code.
 
 ```css
 src:
-1. index.ts
+    index.ts
 dist:
-1. index.js (link this to main index.html)
+    index.js (link this to main index.html)
 ```  
 techniquely we never write anything inside this js file, when we write in src/index.ts it will automatically generates the code inside that js file  
 
@@ -41,3 +41,11 @@ uncomment that & set our js file location.
 "outDir": "./dist"
 ```  
  & it will work perfectly.  
+Now we dealed with linking process we need to run `index.ts`  
+```bash
+tsc <file path> fileName.ts
+```  
+& after that  
+```bash
+tsc -w # to run on watchmode
+```  
