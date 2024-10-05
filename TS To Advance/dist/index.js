@@ -1,7 +1,8 @@
 "use strict";
-const getProduct = (products) => {
-    // operation
-    const result = 2;
-    return products[result];
-};
-getProduct([0, 1, 2, 3, 4]);
+function fName(valueOne, valueTwo) {
+    return {
+        valueOne,
+        valueTwo
+    };
+}
+fName(3, "4");

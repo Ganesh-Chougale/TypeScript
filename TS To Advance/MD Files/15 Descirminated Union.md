@@ -1,3 +1,4 @@
+```typescript
 interface Circle{
 	kind: "circle"
 	radius: number
@@ -53,3 +54,7 @@ function getShapeSwitch(para: shape){
 
 const mySquare: Square = {kind:"square", side:7};
 console.log(getShapeSwitch(mySquare));
+```  
+### Preview:  
+![49](../../Assets/Images/0149.PNG)  
+giving hardcoded literal values to a property in an interface is a key part of implementing discriminated unions in TypeScript.
