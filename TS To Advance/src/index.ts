@@ -1,5 +1,6 @@
-function getProduct<T>(products: T[]) :T{
+const getProduct = <T>(products: T[]):T => {
     // operation
-    const target = 3;
-    return products[target];
+    const result = 2;
+    return products[result];
 }
+getProduct([0,1,2,3,4]) 
